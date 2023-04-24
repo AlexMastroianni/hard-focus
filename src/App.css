@@ -1,3 +1,8 @@
+body,
+html {
+  background-color: #363636;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  color: #74b25a;
+  text-align: center;
+}
+
+.cardSection {
+  display: flex;
+  padding: 20px;
+}
+
+.navBar {
+  margin-top: 40px;
+  color: azure;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navBar li {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.contactButton {
+  background-color: #74b25a !important;
+}
+
+.cards{
+  
 }
